@@ -44,6 +44,8 @@ module.exports = {
       filename: 'remoteEntry.js',
       remotes: {
         content: 'content',
+        sharedReactApp: 'sharedReactApp',
+        helloWorldComponent: 'helloWorldComponent'
       },
       shared: []
     }),

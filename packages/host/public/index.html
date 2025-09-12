@@ -2,11 +2,25 @@
 <html lang="en">
   <head>
     <script src="http://localhost:3002/remoteEntry.js"></script>
+    <script src="http://localhost:3006/remoteEntry.js"></script>
+    <script src="http://localhost:3000/remoteEntry.js"></script>
   </head>
   <body>
     <div>
         <h1>Parent Application</h1>
-        <div id="single-spa-application:content"></div>
+        <!-- <div id="single-spa-application:content"></div> -->
+        <br> 
+        ------------------------------------
+
+        <!-- <br> 
+        This is loading our React component using single-spa:
+        <div id="single-spa-application:sharedReactApp"></div> -->
+
+        ------------------------------------
+
+        <br> 
+        This is loading our React component using a component from within another app:
+        <div id="single-spa-application:helloWorldComponent"></div>
     </div>
   </body>
 </html>
